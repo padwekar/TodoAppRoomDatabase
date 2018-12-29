@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Room</string>
+
+    //Home
+    <string name="hint_add_task">Add Task</string>
+    <string name="content_description_delete_task">Delete Task</string>
+    <string name="content_description_edit_task">Edit Task</string>
+    <string name="content_description_add_task">Add Task</string>
+
+</resources>
