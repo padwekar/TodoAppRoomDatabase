@@ -8,11 +8,12 @@ annotation class ContentView(val resource : Int)
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+         super.onCreate(savedInstanceState)
         javaClass.getAnnotation(ContentView::class.java)?.resource?.let {
             setContentView(it)
         }
-        onCreate()
+        val d = 
+        onCreate();
     }
 
     abstract fun onCreate()
